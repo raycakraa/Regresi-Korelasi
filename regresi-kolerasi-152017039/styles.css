@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #E6E6E6;
+}
+
+.row{
+    background: white;
+    border-radius: 30px;
+    box-shadow: 12px 12px 22px grey;
+}
+
+input {
+    text-align:left;
+}
+
+div#kolomData {
+    display: none;
+}
+
+div#hasil {
+    display: none;
+}
+
+.btn1{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 10%;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background: white;
+    border: 1px solid;
+    color: black;
+}
